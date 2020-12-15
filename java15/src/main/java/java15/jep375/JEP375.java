@@ -1,7 +1,7 @@
 package java15.jep375;
 
 /**
- * JEP 375: Pattern Matching for instanceof (Second Preview)
+ * <h1>JEP 375: Pattern Matching for instanceof (Second Preview)</h1>
  *
  * <h2>Summary</h2>
  * Enhance the Java programming language with pattern matching for the instanceof operator.
