@@ -1,0 +1,47 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": "-XX:+UseZGC"
+        },
+        {
+            "type": "java",
+            "name": "Launch JEP339",
+            "request": "launch",
+            "mainClass": "java15.jep339.JEP339",
+            "projectName": "java15",
+            "args": "-XX:+UseZGC"
+        },
+        {
+            "type": "java",
+            "name": "Launch JEP371",
+            "request": "launch",
+            "mainClass": "java15.jep371.JEP371",
+            "projectName": "java15",
+            "args": "-XX:+UseZGC"
+        },
+        {
+            "type": "java",
+            "name": "Launch JEP375",
+            "request": "launch",
+            "mainClass": "java15.jep375.JEP375",
+            "projectName": "java15",
+            "args": "-XX:+UseZGC"
+        },
+        {
+            "type": "java",
+            "name": "Launch JEP378",
+            "request": "launch",
+            "mainClass": "java15.jep378.JEP378",
+            "projectName": "java15",
+            "args": "-XX:+UseZGC"
+        }
+    ]
+}
