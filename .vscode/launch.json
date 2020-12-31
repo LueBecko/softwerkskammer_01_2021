@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch JEP383",
+            "request": "launch",
+            "mainClass": "java15.jep383.JEP383",
+            "projectName": "java15",
+            "args": "-XX:+UseZGC"
+        },
+        {
+            "type": "java",
             "name": "Launch JEP384",
             "request": "launch",
             "mainClass": "java15.jep384.JEP384",
