@@ -10,7 +10,7 @@
             "request": "launch",
             "mainClass": "java15.jep383.JEP383",
             "projectName": "java15",
-            "args": "-XX:+UseZGC"
+            "vmArgs": "-XX:+UseZGC --add-modules jdk.incubator.foreign"
         },
         {
             "type": "java",
@@ -18,7 +18,7 @@
             "request": "launch",
             "mainClass": "java15.jep384.JEP384",
             "projectName": "java15",
-            "args": "-XX:+UseZGC"
+            "vmArgs": "-XX:+UseZGC"
         },
         {
             "type": "java",
@@ -26,14 +26,14 @@
             "request": "launch",
             "mainClass": "java15.jep360.JEP360",
             "projectName": "java15",
-            "args": "-XX:+UseZGC"
+            "vmArgs": "-XX:+UseZGC"
         },
         {
             "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}",
-            "args": "-XX:+UseZGC"
+            "vmArgs": "-XX:+UseZGC"
         },
         {
             "type": "java",
@@ -41,7 +41,7 @@
             "request": "launch",
             "mainClass": "java15.jep339.JEP339",
             "projectName": "java15",
-            "args": "-XX:+UseZGC"
+            "vmArgs": "-XX:+UseZGC"
         },
         {
             "type": "java",
@@ -49,7 +49,7 @@
             "request": "launch",
             "mainClass": "java15.jep371.JEP371",
             "projectName": "java15",
-            "args": "-XX:+UseZGC"
+            "vmArgs": "-XX:+UseZGC"
         },
         {
             "type": "java",
@@ -65,7 +65,7 @@
             "request": "launch",
             "mainClass": "java15.jep378.JEP378",
             "projectName": "java15",
-            "args": "-XX:+UseZGC"
+            "vmArgs": "-XX:+UseZGC"
         }
     ]
 }

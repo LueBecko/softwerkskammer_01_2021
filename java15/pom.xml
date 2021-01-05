@@ -43,7 +43,8 @@
           <version>3.8.0</version>
           <configuration>
             <compilerArgs>
-              --enable-preview
+              <arg>--enable-preview</arg>
+              <arg>--add-modules jdk.incubator.foreign</arg>
             </compilerArgs>
           </configuration>
         </plugin>
